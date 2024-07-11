@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import ButtonsView from './pages/ButtonsView.vue'
-import CardViews from './pages/CardViews.vue'
+import CardViews from './pages/CardView.vue'
 import HeadersView from './pages/HeadersView.vue'
 import AnimationsView from './pages/AnimationsView.vue'
+import BadgeView from "./pages/BadgeView.vue";
 
 const routes = [
   {
@@ -24,6 +25,10 @@ const routes = [
   {
     path: "/animations",
     component: AnimationsView,
+  },
+  {
+    path: "/badges",
+    component: BadgeView,
   },
 ];
 const router = createRouter({

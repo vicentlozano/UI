@@ -8,6 +8,5 @@
 import SwetFadeOut from "../components/animations/SwetFadeOut.vue";
 export default {
   components: { SwetFadeOut },
-  data() {},
 };
 </script>
