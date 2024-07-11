@@ -5,7 +5,7 @@
       <BaseButton :to="'/cards'" :link="true">Cards</BaseButton>
       <BaseButton :to="'/headers'" :link="true">Headers</BaseButton>
       <BaseButton :to="'/animations'" :link="true">Animations</BaseButton>
-      <BaseButton :to="'/badges'" :link="true">Badges</BaseButton>
+      <BaseButton :to="'/forms'" :link="true">Forms</BaseButton>
 
     </nav>
   </header>
